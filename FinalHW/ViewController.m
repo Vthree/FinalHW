@@ -1,10 +1,3 @@
-//
-//  ViewController.m
-//  FinalHW
-//
-//  Created by Ji-Ye on 14/5/30.
-//  Copyright (c) 2014年 vth. All rights reserved.
-//
 
 #import "ViewController.h"
 
@@ -26,4 +19,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btn1:(id)sender {
+    self.label.text=@"299410562";
+}
+
+- (IBAction)btn2:(id)sender {
+self.label.text=@"許溥淳";
+}
 @end
